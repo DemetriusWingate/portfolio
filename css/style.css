@@ -68,6 +68,27 @@ body {
     max-width: 100%;
 }
 
+.resumeButton, .linkedInButton {
+    color: #e1b12c;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #e1b12c;
+    border-radius: 3px;
+}
+
+.resumeButton:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e1b12c;
+}
+
+.linkedInButton:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e1b12c;
+}
+
 .skillsSection, 
 .contactSection {
     background-color: #e1b12c;
@@ -289,12 +310,12 @@ body {
     transform: scale(1.05, 1.05);
   }
 
-.copyrightSection {
+.copyright {
     background-color: #000;
     color: #fff;
     padding: 30px 5px;
 }
-.copyrightSection p {
+.copyright p {
     margin: 0;
 }
 
