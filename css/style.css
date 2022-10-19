@@ -364,3 +364,31 @@ body {
     height: 100%;
     background: url(../img/loader.gif) center center no-repeat;
 }
+
+.social {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.fa-brands {
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
